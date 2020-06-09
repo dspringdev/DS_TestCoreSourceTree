@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29905.134
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DS_TestCoreSourceTree", "DS_TestCoreSourceTree.csproj", "{0535CA4D-B593-41EA-9959-0AB4DB6322EE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DS_TestCoreSourceTree", "DS_TestCoreSourceTree.csproj", "{0535CA4D-B593-41EA-9959-0AB4DB6322EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DS_TestCoreSourceTree.Core", "..\DS_SourceTreeTest\DS_TestCoreSourceTree.Core\DS_TestCoreSourceTree.Core.csproj", "{BB439DD4-5D2B-4C6D-9808-BB1DAB3B5F4F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DS_TestCoreSourceTree.Data", "DS_TestCoreSourceTree.Data\DS_TestCoreSourceTree.Data.csproj", "{8A0AAB06-EE30-402E-92A1-DA8B32C0D5BB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{0535CA4D-B593-41EA-9959-0AB4DB6322EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0535CA4D-B593-41EA-9959-0AB4DB6322EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0535CA4D-B593-41EA-9959-0AB4DB6322EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB439DD4-5D2B-4C6D-9808-BB1DAB3B5F4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB439DD4-5D2B-4C6D-9808-BB1DAB3B5F4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB439DD4-5D2B-4C6D-9808-BB1DAB3B5F4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB439DD4-5D2B-4C6D-9808-BB1DAB3B5F4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A0AAB06-EE30-402E-92A1-DA8B32C0D5BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A0AAB06-EE30-402E-92A1-DA8B32C0D5BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A0AAB06-EE30-402E-92A1-DA8B32C0D5BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A0AAB06-EE30-402E-92A1-DA8B32C0D5BB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
